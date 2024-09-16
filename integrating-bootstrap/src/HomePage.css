@@ -1,0 +1,10 @@
+.shop-now-button {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+.shop-now-text {
+    color: green;
+    font-weight: bold;
+    border-color: red;
+}
