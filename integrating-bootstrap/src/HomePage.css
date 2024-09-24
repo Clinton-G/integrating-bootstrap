@@ -1,10 +1,14 @@
-.shop-now-button {
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.2);
-}
-
 .shop-now-text {
     color: green;
     font-weight: bold;
     border-color: red;
+}
+  
+.image-background {
+    background-image: url('./Bowser-Peaches.jpg');
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    object-fit: cover
 }

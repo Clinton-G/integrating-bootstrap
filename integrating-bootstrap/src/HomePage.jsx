@@ -1,13 +1,16 @@
-import { Button, Container } from 'react-bootstrap';
+import { Button, Container, Image } from 'react-bootstrap';
 import './HomePage.css';
-import './Bowser-Peaches.jpg'
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import Bowser from './Bowser-Peaches.jpg';
 
 const HomePage = () => {
   return (
-    <Container className="shop-now-button">
-      <Button className='shop-now-text'>Shop Now</Button>
-    </Container>
+    <div>
+      <Container>
+        <Image src={Bowser}/>
+        <Button className="shop-now-text">Shop Now</Button>
+      </Container>
+    </div>
   );
 };
 
